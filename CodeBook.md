@@ -37,23 +37,41 @@ Finally write.table is used to output averages_final_data to the text file "aver
 Variables:
 
 url: stores the file path of the data.
+
 destfile: stores the name of the local file where the data will be stored.
+
 test_labels: table containing labels for test data.
+
 test_subjects: table containing subjects for test data.
+
 test_data: table containing test dataset.
+
 train_labels: table containing labels for training data.
+
 train_subjects: table containing subjects for training data.
+
 train_data: table containing training dataset.
+
 features: table containing a list of features.
+
 activities: table containing a list of class labels with their activitiy name.
+
 y_data: merged table of test and training labels.
+
 subjects: merged table of test and training subjects:
+
 train_full: merged table of training data, labels and subjects
+
 test_full: merged table of test data, labels and subjects
+
 merged_data: merged table containing train_full and test_full.
+
 mean_std_features: integer array with column numbers containing mean or std.
+
 merged2: table containing subset of merged data with only mean or std.
+
 merged3: table containing merged2 along with labels and subjects
+
 averages_final_data: table containing the results of taking the average of
 of all data by subject and activity on the merged3 table.
 
